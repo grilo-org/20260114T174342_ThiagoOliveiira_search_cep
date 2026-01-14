@@ -1,0 +1,57 @@
+name: search_cep
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  bloc: ^9.0.0
+  get_it: ^8.2.0
+  shared_preferences: ^2.5.3
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  go_router: ^16.2.0
+  reactive_forms: ^18.1.1
+  url_launcher: ^6.3.2
+  dio: ^5.9.0
+  intl: ^0.19.0
+  sqflite: ^2.4.2
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: true            # gera para Android
+  ios: true                # gera para iOS
+  image_path: assets/images/logo.png   # PNG quadrado (1024x1024 recomendado)
+
+  # Android (Adaptive Icons)
+  adaptive_icon_background: "#0F4C55"    # cor ou imagem (background 108x108)
+  # adaptive_icon_foreground: assets/icon/app_icon_foreground.png  # foreground 432x432
+  # Android 13+ (ícone monocromático)
+  # adaptive_icon_monochrome: assets/icon/app_icon_monochrome.png  # (opcional)
+
+  # iOS (versões mais novas suportam ícone único grande)
+  remove_alpha_ios: true   # evita rejeição na App Store por alpha channel
